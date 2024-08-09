@@ -1,0 +1,71 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="wGs4HNNn2MdFXB_SYJhk">
+    <mxGraphModel dx="1242" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="550" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxzuTReBPEa-u-37HCeS-1" target="ZxzuTReBPEa-u-37HCeS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-1" value="Application Code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-2" value="Application&lt;div&gt;bytecode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZxzuTReBPEa-u-37HCeS-3" target="ZxzuTReBPEa-u-37HCeS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-3" value="Agent Code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxzuTReBPEa-u-37HCeS-4" target="ZxzuTReBPEa-u-37HCeS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-15" value="Attched Hooks" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZxzuTReBPEa-u-37HCeS-14">
+          <mxGeometry x="0.0091" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-16" value="using premain&amp;nbsp;&lt;div&gt;or agentmain&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZxzuTReBPEa-u-37HCeS-14">
+          <mxGeometry x="-0.1182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-4" value="Agent&amp;nbsp;&lt;div&gt;ByteCode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxzuTReBPEa-u-37HCeS-6" target="ZxzuTReBPEa-u-37HCeS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-6" value="Class loder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-7" value="Transform the application class bytecode as per agent code&lt;div&gt;when the class is loaded&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="570" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-8" value="Memory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="650" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZxzuTReBPEa-u-37HCeS-7" target="ZxzuTReBPEa-u-37HCeS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxzuTReBPEa-u-37HCeS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZxzuTReBPEa-u-37HCeS-2" target="ZxzuTReBPEa-u-37HCeS-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="370" />
+              <mxPoint x="320" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

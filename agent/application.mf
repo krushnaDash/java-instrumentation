@@ -1,0 +1,4 @@
+Agent-Class: org.krushna.java.java_instrumentation.agent.App
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Premain-Class: org.krushna.java.java_instrumentation.agent.App
